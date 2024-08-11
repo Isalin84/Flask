@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>РЕЙТИНГ ЛЮБИМЫХ БЛЮД</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .banner-wrapper {
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+        .full-width-banner {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .banner-text {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 48px; /* Размер шрифта */
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Тень для улучшения читаемости */
+            margin: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        th:nth-child(1),
+        th:nth-child(2),
+        td:nth-child(1),
+        td:nth-child(2) {
+            width: 10%;
+        }
+        th:nth-child(3),
+        td:nth-child(3) {
+            width: 50%;
+        }
+        img {
+            width: 300px;
+            height: auto;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Начало сайта -->
+    <div class="banner-wrapper">
+        <img src="header.jpg" alt="Header" class="full-width-banner">
+        <h1 class="banner-text">Рейтинг моих любимых блюд</h1>
+    </div>
+
+    <table>
+        <tr>
+            <th>Название блюда</th>
+            <th>Оценка</th>
+            <th>Рецепт</th>
+            <th>Фото</th>
+        </tr>
+        <tr>
+            <td>Манты</td>
+            <td>10/10</td>
+            <td>
+                Хотите почувствовать себя настоящим кулинаром? Тогда вам стоит попробовать приготовить манты! Просто возьмите тесто, фарш, и огромное терпение. Ведь мастерство приходит с практикой!<br>
+                <a href="https://eda.ru/recepty/osnovnye-blyuda/manty-151441" target="_blank">Рецепт Манты</a>
+            </td>
+            <td><a href="Манты.webp" target="_blank"><img src="Манты.webp" alt="Манты"></a></td>
+        </tr>
+        <tr>
+            <td>Стейк</td>
+            <td>10/10</td>
+            <td>
+                Если вы не вегетарианец, то стейк - это идеальный вариант для вечернего ужина. Главное - не забудьте про температуру и правильную выдержку мяса. Ваши друзья будут в восторге!<br>
+                <a href="https://eda.ru/recepty/osnovnye-blyuda/stejk-ribaj-36109" target="_blank">Рецепт Стейка</a>
+            </td>
+            <td><a href="Стейк.webp" target="_blank"><img src="Стейк.webp" alt="Стейк"></a></td>
+        </tr>
+        <tr>
+            <td>Бургер</td>
+            <td>10/10</td>
+            <td>
+                Устроить барбекю дома? Легко! Просто сделайте бургер, добавьте сочный кусок мяса, свежие овощи, и... не забудьте запастись салфетками!<br>
+                <a href="https://www.russianfood.com/recipes/recipe.php?rid=153858" target="_blank">Рецепт Бургера</a>
+            </td>
+            <td><a href="Бургер.webp" target="_blank"><img src="Бургер.webp" alt="Бургер"></a></td>
+        </tr>
+        <tr>
+            <td>Борщ</td>
+            <td>10/10</td>
+            <td>
+                Борщ - это не просто суп, это настоящее искусство! Главное не забыть сметану, иначе вас не поймут на кухне. Подходит для всех случаев жизни!<br>
+                <a href="https://eda.ru/recepty/supy/borshh-43526" target="_blank">Рецепт Борща</a>
+            </td>
+            <td><a href="Борщ.webp" target="_blank"><img src="Борщ.webp" alt="Борщ"></a></td>
+        </tr>
+        <tr>
+            <td>Пирожное Ромовая баба</td>
+            <td>10/10</td>
+            <td>
+                Хочется чего-то сладкого и с лёгким "пьянящим" послевкусием? Ромовая баба - это то, что нужно. Главное - не переусердствуйте с ромом, чтобы не забыть, что вы на кухне!<br>
+                <a href="https://1000.menu/cooking/45759-romovaya-baba-klassicheskii-retsept" target="_blank">Рецепт Ромовой бабы</a>
+            </td>
+            <td><a href="Ромовая баба.webp" target="_blank"><img src="Ромовая баба.webp" alt="Пирожное Ромовая баба"></a></td>
+        </tr>
+    </table>
+
+    <!-- Футер сайта -->
+    <img src="footer.jpg" alt="Footer" class="full-width-banner">
+</body>
+</html>
